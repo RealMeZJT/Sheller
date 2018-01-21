@@ -9,3 +9,6 @@ if [ $# -eq 1 ]
 fi
 git add -A
 git commit -m "$comment"
+
+# 通常不建议这么做
+# git push origin master
