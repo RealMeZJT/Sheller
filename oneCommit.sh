@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # 整合git的几条提交命令。
+
 comment="without comment"
 if [ $# -eq 1 ]
     then
